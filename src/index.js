@@ -10,7 +10,7 @@ const client = new Client({ intents: [
 	GatewayIntentBits.MessageContent,
 	GatewayIntentBits.GuildMembers,
 ] });
-const token="MTA3MTcyNDM1NTUxNzY3NzU4OA.GbAPtt.BjnLQtpKlbu7iyJFikZF2kpinkukUO4YBLI6d0"
+const token="Write the Main Token in here"
 
 client.on('ready',async()=>{
     console.log(`${client.user.username} is online!!!!`);
